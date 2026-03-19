@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h2>🎓 CampusBot</h2>
+            <p>Your 24/7 College Guide</p>
+        </header>
+
+        <div id="chat-box" class="chat-box">
+            <div class="message bot-msg">Hello! How can I help you with admissions or courses today?</div>
+        </div>
+
+        <div id="typing-indicator" class="typing hidden">CampusBot is typing...</div>
+
+        <form id="chat-form" class="input-area">
+            <input type="text" id="user-input" placeholder="Ask about fees, events, or timings..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
